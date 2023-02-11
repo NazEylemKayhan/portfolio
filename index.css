@@ -1,0 +1,332 @@
+/*
+<a href="https://freeimage.host/i/H0yaSOG"><img src="https://iili.io/H0yaSOG.md.png" alt="H0yaSOG.md.png" border="0"></a> -lacivert  -2707f2
+<a href="https://freeimage.host/i/H0yavJn"><img src="https://iili.io/H0yavJn.md.png" alt="H0yavJn.md.png" border="0"></a> -mor  -670fbf
+<a href="https://freeimage.host/i/H0ya8Rs"><img src="https://iili.io/H0ya8Rs.md.png" alt="H0ya8Rs.md.png" border="0"></a> -pembe  -f228b2
+<a href="https://freeimage.host/i/H0yaeUX"><img src="https://iili.io/H0yaeUX.md.png" alt="H0yaeUX.md.png" border="0"></a> -sarı  -f2ff8f
+<a href="https://freeimage.host/i/H0yaUbf"><img src="https://iili.io/H0yaUbf.md.png" alt="H0yaUbf.md.png" border="0"></a> -yeşil -b5fd5d
+
+
+<a href="https://freeimage.host/tr"><img src="https://iili.io/H1He6wx.png" alt="H1He6wx.png" border="0"></a>
+<a href="https://freeimage.host/i/H1HeU8u"><img src="https://iili.io/H1HeU8u.md.png" alt="H1HeU8u.md.png" border="0"></a>
+
+<a href="https://freeimage.host/i/H1HLwJ4"><img src="https://iili.io/H1HLwJ4.md.png" alt="H1HLwJ4.md.png" border="0"></a>
+
+
+
+
+*/
+
+
+.sticky-button {
+  
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  background-color: #670fbf;
+  border: #670fbf;
+}
+
+.sticky-button:hover {
+  background-color: #b5fd5b;
+  color: whitesmoke;
+  
+}
+
+.contacticon{
+  color: black;
+  
+}
+
+
+
+
+ 
+ 
+ 
+ 
+ .text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   z-index: 1;
+ }
+ 
+ 
+ 
+ 
+ h2 {
+  color: #670fbf;
+  font-size: 2em;
+  
+
+ }
+ 
+ 
+ 
+ 
+ h3 {
+  color: black;
+  font-size: 1.3em;
+  
+ }
+ 
+ 
+ h4 {
+  color: black;
+  font-size: 1em;
+  
+ }
+ 
+ 
+ 
+ h5 {
+  color: black;
+  font-size: 2em;
+ }
+ 
+ 
+ h6 {
+  color: black;
+  font-size: 1em;
+ }
+ 
+ 
+
+ /* hover on image*/
+ 
+ .image-container {
+   position: relative;
+   border-radius: 0%;
+  box-shadow: 5px 5px 15px #670fbf;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+ }
+ 
+ .image-container::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   transition: background-color 0.3s ease-in-out;
+ }
+ 
+ .image-container:hover::before {
+   background-color: #b5fd5b;
+ }
+ 
+ .text-overlay {
+   position: absolute;
+   top: 50%;
+   left: 40%;
+   transform: translate(-50%, -50%);
+   display: none; 
+   color:#670fbf ;
+   font-weight: bold;
+ }
+ 
+ .image-container:hover .text-overlay {
+   display: block;
+ }
+ 
+/*show more button*/
+
+.btn-showmore {
+  
+  
+  border: none;
+  
+  color: #670fbf;
+  
+  
+  
+  /*display: inline-block;*/
+  
+  
+  cursor: pointer;
+  
+}
+
+
+
+
+/*-------------Download Button---------*/
+ .download-button {
+    background-color: #aaa; /* Green */
+    border: none;
+    float: right;
+    color:  #b5fd5b;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+
+  .download-button:hover {
+    background-color: #670fbf;
+    color: whitesmoke;
+    
+}
+
+
+
+body {
+  font-size: 1rem;
+  background-color: #FEFCFD; /* default font size */
+}
+
+/*css for services*/
+
+.serviceName{
+  font-size: 1.6em;
+  color: #b5fd5b;
+  font-weight: bold;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  
+  
+}
+
+/*css for summary*/
+
+.summary{
+  
+  color: #670fbf;
+  opacity: 0.7;
+    
+  
+  
+}
+
+
+/*css for career*/
+
+
+.company {
+  font-size: 1.3em;
+  color: #670fbf;
+  font-weight: bold;
+  
+  
+}
+.position {
+  font-size: 1.1em;
+  color: #670fbf;
+  
+}
+
+.positionDates {
+  font-size: 1em;
+  color: #670fbf;
+  text-align: left;
+  
+  opacity: 0.7;
+}
+
+
+
+
+/*carousel height*/
+
+.carousel-item img {
+  height: 80px; /* Set the height of the images */
+  width: auto; 
+  object-fit: contain; /* Scale the image to fit within the container */
+}
+
+
+
+/*font size ı ayarlamak için.*/
+
+
+
+@media (min-width: 350px) {
+  body {
+    font-size: 1em; 
+  }
+}
+
+@media (min-width: 537px) {
+  body {
+    font-size: 0.6em;
+  }
+}
+
+@media (min-width: 980px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 537px) {
+  h2.summary {
+    font-size: 20px;
+    
+  }
+}
+
+@media (max-width: 537px) {
+  h1.heading {
+    font-size: 30px;
+  }
+}
+
+
+
+/*navbar stickly*/
+body {
+  padding-top: 70px;
+}
+
+
+
+/*Card CSS*/
+  
+.card {
+  border-radius: 0%;
+  box-shadow: 5px 5px 15px #670fbf;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+
+}
+
+.card:hover {
+  background-color: #670fbf;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 15px #b5fd5b ;
+
+}
+
+.card:hover h4 {
+  
+  color: whitesmoke;
+
+}
+
+.card:hover h3 {
+  
+  color: whitesmoke;
+
+}
+
+
+
+/*bacground video deneme*/
+
